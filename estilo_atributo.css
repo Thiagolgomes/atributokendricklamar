@@ -1,0 +1,170 @@
+*{
+    margin:0;
+}
+
+body{
+    background-image: url(images2/kendricklamar_img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    height: 150px;
+    border-bottom:1px solid #ccc;
+
+}
+
+.title{
+display:flex;
+flex-direction: column;
+color:#FFF;
+font-weight:bold;
+font-family:Raleway;
+}
+
+.title1{
+    display:flex;
+    justify-content:center;  
+    margin-top:20px;
+    margin-left:20px;
+    font-size:30px;
+}
+
+.subtitle{
+    display:flex;
+    justify-content: center;
+    font-size:15px;
+}
+
+.icones {
+    display:flex;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+    background:none;
+}
+
+.icon1, .icon2, .icon3{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin:4px;
+    font-size:30px;
+}
+
+.icon3{
+    margin-right:20px;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover{
+    color:#FFF;
+}
+
+.container_contents{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.history{
+    font-family:Raleway;
+    color:#FFF;
+    font-size:12px;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.albuns{
+    font-size:30px;
+    font-family:Raleway;
+    margin-top:60px;
+    font-weight:bold;
+}
+
+.discografy{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:60%;
+}
+
+
+.discs img{
+    width:175px;
+    height:175px;
+    margin:20px;
+    margin-bottom:0;
+    border:1px solid rgba(0,0,0,0.0);
+    border-radius:10%;
+    box-shadow: 2px 1px 1px #d3d3d3;
+
+}
+
+.img:hover{
+    border:1px solid #fff;
+    
+
+}
+
+.legenda, .anolegenda{
+    text-align: center;
+    margin-left:20px;
+    margin-top:0;
+    width:175px;
+    color:#fff; 
+
+}
+
+
+.anolegenda{
+    font-size:13px;
+}
+
+
+.legenda:hover, .anolegenda:hover{
+    text-decoration:underline;
+}
+
+.textarea{
+    display:flex;
+    align-items: center;
+    height:175px;
+    width: 650px;
+
+}
+
+.text {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:500px;
+    
+}
+
+.text p, .p1{
+    text-align:justify;
+    font-style: italic;
+    font-size:30px;
+    color:#fff;
+    margin-left:80px;
+}
+
+.p1{
+    margin-top:40px;
+}
+
+
+.footer_copy{
+    background-color: #000;
+    display:flex;
+    justify-content: flex-start;
+    margin-top:150px;
+    color:#ccc;
+    font-size:9px;
+    
+}
+
